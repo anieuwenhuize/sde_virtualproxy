@@ -30,7 +30,7 @@ public class Controller {
 
                 case 42: say(_subject.verifyAnswerToTheUniverseAndEveryThing()); break;
 
-                default: say("Not the right number...");
+                default: say(_subject.verifyOtherNumber());
             }
 
         }

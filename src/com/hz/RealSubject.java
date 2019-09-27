@@ -14,4 +14,8 @@ public class RealSubject {
 
         return "That's the right answer!!!!!!";
     }
+
+    public String verifyOtherNumber() {
+        return "Not the right number...";
+    }
 }
