@@ -16,6 +16,8 @@ public class Controller {
 
     public void start() {
 
+        say("Quess the answer to life the universe and everything.");
+
         while ( true ) {
 
             int i = _reader.readInt();
@@ -24,11 +26,11 @@ public class Controller {
 
                 case -1: say("NaN");break;
 
-                case 1: say("easy"); break;
+                case 1: say("to easy man."); break;
 
                 case 42: say(_subject.verifyAnswerToTheUniverseAndEveryThing()); break;
 
-                default: say("not easy man!!");
+                default: say("Not the right number...");
             }
 
         }
