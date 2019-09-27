@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 
 public class ConsoleReader {
 
-    private String readLine() {
+    public String readLine() {
 
         String msg;
 
