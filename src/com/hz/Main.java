@@ -9,7 +9,7 @@ public class Main {
         IntWrapper intReader = new IntWrapper(
                 new ConsoleReader());
 
-        RealSubject masterThing = new RealSubject();
+        ICanCalculateTheAnswer masterThing = new Surrogate();
 
         Controller contr = new Controller(intReader, masterThing);
 

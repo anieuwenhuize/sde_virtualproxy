@@ -1,6 +1,6 @@
 package com.hz;
 
-public class RealSubject {
+public class RealSubject implements ICanCalculateTheAnswer {
 
     public RealSubject() {
 

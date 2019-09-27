@@ -3,9 +3,9 @@ package com.hz;
 public class Controller {
 
     private IntWrapper _reader;
-    private RealSubject _subject;
+    private ICanCalculateTheAnswer _subject;
 
-    public Controller(IntWrapper reader, RealSubject subject) {
+    public Controller(IntWrapper reader, ICanCalculateTheAnswer subject) {
         this._reader = reader;
         this._subject = subject;
     }
