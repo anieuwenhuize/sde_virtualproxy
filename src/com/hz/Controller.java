@@ -22,11 +22,11 @@ public class Controller {
 
             switch (i) {
 
-                case -1: say("NaN");
+                case -1: say("NaN");break;
 
                 case 1: say("easy"); break;
 
-                case 42: _subject.verifyAnswerToTheUniverseAndEveryThing(); break;
+                case 42: say(_subject.verifyAnswerToTheUniverseAndEveryThing()); break;
 
                 default: say("not easy man!!");
             }
